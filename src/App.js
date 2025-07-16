@@ -1,11 +1,12 @@
 import Header from "./components/header/Header.jsx";
+import Promo from "./components/promo/Promo.jsx";
 
 function App() {
-  const project = "Fashion React - Start";
   return (
     <div className="App">
-      <h1>{project}</h1>
       <Header />
+      <Promo />
+      {/* Other components can be added here */}
     </div>
   );
 }

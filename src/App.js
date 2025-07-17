@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {/* <Promo /> */}
+      <Promo />
       <Brands />
       <Arrivals />
       {/* Other components can be added here */}
